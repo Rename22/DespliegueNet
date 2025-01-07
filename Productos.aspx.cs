@@ -6,7 +6,7 @@ using System.Web.UI.WebControls;
 
 namespace Ejercicio_2
 {
-    public partial class Productos : Page
+    public partial class Productos : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

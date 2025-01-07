@@ -11,25 +11,16 @@ namespace Ejercicio_2
 {
 
 
-    public partial class SiteMaster
+    public partial class ListarAuditorias
     {
 
         /// <summary>
-        /// Control ContentPlaceHolder1.
+        /// Control GridViewAuditorias.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder1;
-
-        /// <summary>
-        /// Control MainContent.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder MainContent;
+        protected global::System.Web.UI.WebControls.GridView GridViewAuditorias;
     }
 }

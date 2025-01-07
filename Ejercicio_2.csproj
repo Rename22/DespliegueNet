@@ -100,7 +100,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AgregarAuditoria.aspx" />
     <Content Include="AgregarLibro.aspx" />
+    <Content Include="AgregarPerfil.aspx" />
+    <Content Include="AgregarPerfil2.aspx" />
     <Content Include="ComprarLibro.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -121,9 +124,14 @@
     <Content Include="Content\bootstrap.rtl.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
+    <Content Include="EditarAuditoria.aspx" />
     <Content Include="EditarLibro.aspx" />
+    <Content Include="EditarPerfil.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="ListarAuditorias.aspx" />
+    <Content Include="ListarPerfiles.aspx" />
+    <Content Include="ListarPerfiles2.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="MisSolicitudes.aspx" />
@@ -193,12 +201,33 @@
     <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AgregarAuditoria.aspx.cs">
+      <DependentUpon>AgregarAuditoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarAuditoria.aspx.designer.cs">
+      <DependentUpon>AgregarAuditoria.aspx</DependentUpon>
+    </Compile>
     <Compile Include="AgregarLibro.aspx.cs">
       <DependentUpon>AgregarLibro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AgregarLibro.aspx.designer.cs">
       <DependentUpon>AgregarLibro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarPerfil.aspx.cs">
+      <DependentUpon>AgregarPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarPerfil.aspx.designer.cs">
+      <DependentUpon>AgregarPerfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AgregarPerfil2.aspx.cs">
+      <DependentUpon>AgregarPerfil2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AgregarPerfil2.aspx.designer.cs">
+      <DependentUpon>AgregarPerfil2.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
@@ -230,6 +259,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditarAuditoria.aspx.cs">
+      <DependentUpon>EditarAuditoria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarAuditoria.aspx.designer.cs">
+      <DependentUpon>EditarAuditoria.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EditarLibro.aspx.cs">
       <DependentUpon>EditarLibro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -237,8 +273,36 @@
     <Compile Include="EditarLibro.aspx.designer.cs">
       <DependentUpon>EditarLibro.aspx</DependentUpon>
     </Compile>
+    <Compile Include="EditarPerfil.aspx.cs">
+      <DependentUpon>EditarPerfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditarPerfil.aspx.designer.cs">
+      <DependentUpon>EditarPerfil.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ListarAuditorias.aspx.cs">
+      <DependentUpon>ListarAuditorias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarAuditorias.aspx.designer.cs">
+      <DependentUpon>ListarAuditorias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarPerfiles.aspx.cs">
+      <DependentUpon>ListarPerfiles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarPerfiles.aspx.designer.cs">
+      <DependentUpon>ListarPerfiles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListarPerfiles2.aspx.cs">
+      <DependentUpon>ListarPerfiles2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListarPerfiles2.aspx.designer.cs">
+      <DependentUpon>ListarPerfiles2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
